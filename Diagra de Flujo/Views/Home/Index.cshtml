@@ -8,10 +8,20 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Index</title>
+    <link href="https://bootswatch.com/lumen/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        #myDiagramDiv {
+            display: block;
+            position: relative;
+            width: 80%;
+            height: 500px;
+            background-color: azure; /* #DAE4E4 */
+        }
+    </style>
 </head>
 <body>
-    <div>
-        <script src="https://gojs.net/latest/release/go.js"></script>
-    </div>
+    <div id="myDiagramDiv"></div>
+    <script src="~/Public/js/lib/go.js"></script>
+    <script src="~/Public/js/main.js"></script>
 </body>
 </html>
