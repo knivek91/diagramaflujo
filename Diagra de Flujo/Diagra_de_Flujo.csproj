@@ -119,6 +119,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Content Include="Global.asax" />
+    <Content Include="Public\css\bootstrap.min.css" />
     <Content Include="Public\js\lib\go.js" />
     <Content Include="Public\js\main.js" />
     <Content Include="Web.config" />
