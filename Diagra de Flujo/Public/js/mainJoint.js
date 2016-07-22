@@ -20,6 +20,7 @@ var member = function (x, y, rank, name, background, textColor) {
             '.card': { fill: background, stroke: 'none' },
             '.rank': { text: rank, fill: textColor, 'word-spacing': '-5px', 'letter-spacing': 0 },
             '.name': { text: name, fill: textColor, 'font-size': 13, 'font-family': 'Arial', 'letter-spacing': 0 },
+            'giud': 'Kevin Rocks!!'
         }
     });
 
@@ -66,5 +67,5 @@ link(marge, maggie, [{ x: 385, y: 380 }]);
 
 
 paper.on('cell:pointerclick ', function (cellView, evt, x, y) {
-    console.log(graph.getCell(cellView.id));
+    console.log(cellView.model.attributes.attrs);
 });
