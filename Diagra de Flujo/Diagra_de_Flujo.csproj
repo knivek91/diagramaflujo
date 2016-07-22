@@ -120,6 +120,12 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Content Include="Global.asax" />
     <Content Include="Public\css\bootstrap.min.css" />
+    <Content Include="Public\css\component.css" />
+    <Content Include="Public\css\demo.css" />
+    <Content Include="Public\js\lib\bootstrap.min.js" />
+    <Content Include="Public\js\lib\classie.js" />
+    <Content Include="Public\js\lib\menu.js" />
+    <Content Include="Public\js\lib\modernizr.custom.25376.js" />
     <Content Include="Public\js\mainJoint.js" />
     <Content Include="Public\js\lib\backbone-min.js" />
     <Content Include="Public\js\lib\go.js" />
