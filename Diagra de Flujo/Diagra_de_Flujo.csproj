@@ -120,7 +120,16 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Content Include="Global.asax" />
     <Content Include="Public\css\bootstrap.min.css" />
+    <Content Include="Public\js\mainJoint.js" />
+    <Content Include="Public\js\lib\backbone-min.js" />
     <Content Include="Public\js\lib\go.js" />
+    <Content Include="Public\js\lib\joint.css" />
+    <Content Include="Public\js\lib\joint.js" />
+    <Content Include="Public\js\lib\joint.min.css" />
+    <Content Include="Public\js\lib\joint.min.js" />
+    <Content Include="Public\js\lib\jointjs.js" />
+    <Content Include="Public\js\lib\jquery.min.js" />
+    <Content Include="Public\js\lib\lodash.min.js" />
     <Content Include="Public\js\main.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
