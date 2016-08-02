@@ -3,7 +3,7 @@ var graph = new joint.dia.Graph();
 
 var paper = new joint.dia.Paper({
     el: $('#diagram'),
-    width: 800,
+    width: 1000,
     height: 600,
     gridSize: 1,
     model: graph,
@@ -24,7 +24,7 @@ var member = function (x, y, rank, name, background, textColor) {
             'giud': 'Kevin Rocks!!'
         }
     });
-
+    cell.resize(150, 70);
     graph.addCell(cell);
     return cell;
 };
@@ -45,14 +45,15 @@ function link(source, target, breakpoints) {
         }
 
     });
+    
     graph.addCell(cell);
     return cell;
 };
 
-var bart = member(300, 70, '1', 'Entrada','#30d0c6');
-var homer = member(90, 200, '1 Marketing', 'Factura 1',  '#7c68fd', '#f1f1f1');
-var marge = member(300, 200, '2 Sales', 'Factura 2', '#7c68fd', '#f1f1f1');
-var lisa = member(500, 200, '3 Production', 'Factura 3', '#7c68fd', '#f1f1f1');
+var bart = member(300, 70, '1', 'Bart','#30d0c6');
+var homer = member(90, 200, '1 Homer', 'Factura 1',  '#7c68fd', '#f1f1f1');
+var marge = member(300, 200, '2 marge', 'Factura 2', '#7c68fd', '#f1f1f1');
+var lisa = member(500, 200, '3 lisa', 'Factura 3', '#7c68fd', '#f1f1f1');
 var maggie = member(400, 350, '1', 'Maggie Simpson',  '#feb563');
 var lenny = member(190, 350, '1', 'Lenny Leonard',  '#feb563');
 var carl = member(190, 500, '2', 'Carl Carlson',  '#feb563');
@@ -66,15 +67,15 @@ link(marge, maggie, [{ x: 385, y: 380 }]);
 
 paper.on('cell:pointerclick ', function (cellView, evt, x, y) {
 
-    // var newCell = member(250, 350, '100', 'Carl Carlson', '#d35400');
-
-    // link(marge, newCell, [{ x: 385, y: 380 }]);
-
     var cell = cellView.model;
     var graph = cellView.paper.model;
+    var position = cell.position();
 
-    console.log(cell);
-    console.log(graph);
+    var kevin = member(position.x + 150, position.y + 150, '9', 'Kevin', '#d35400');
+    link(cell, kevin, [{ x: position.x, y: position.y + 10 }], [{x:position.x + 150, y:position.y + 150}]);
+
+    //var rojas = member(200, 20, '19', 'Rojas', '#d35400');
+    //link(cell, rojas, [{ x: 500, y: 380 }]);
 
 });
 

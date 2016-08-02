@@ -20,3 +20,25 @@ C:\Users\krojas\Desktop\Diagra de Flujo\Diagra de Flujo\bin\System.Web.WebPages.
 C:\Users\krojas\Desktop\Diagra de Flujo\Diagra de Flujo\obj\Debug\Diagra_de_Flujo.csprojResolveAssemblyReference.cache
 C:\Users\krojas\Desktop\Diagra de Flujo\Diagra de Flujo\obj\Debug\Diagra_de_Flujo.dll
 C:\Users\krojas\Desktop\Diagra de Flujo\Diagra de Flujo\obj\Debug\Diagra_de_Flujo.pdb
+C:\Users\krojas\Desktop\Projects\diagramaflujo\Diagra de Flujo\bin\Diagra_de_Flujo.dll.config
+C:\Users\krojas\Desktop\Projects\diagramaflujo\Diagra de Flujo\bin\Diagra_de_Flujo.dll
+C:\Users\krojas\Desktop\Projects\diagramaflujo\Diagra de Flujo\bin\Diagra_de_Flujo.pdb
+C:\Users\krojas\Desktop\Projects\diagramaflujo\Diagra de Flujo\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\krojas\Desktop\Projects\diagramaflujo\Diagra de Flujo\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\krojas\Desktop\Projects\diagramaflujo\Diagra de Flujo\bin\Newtonsoft.Json.dll
+C:\Users\krojas\Desktop\Projects\diagramaflujo\Diagra de Flujo\bin\System.Web.Helpers.dll
+C:\Users\krojas\Desktop\Projects\diagramaflujo\Diagra de Flujo\bin\System.Web.Mvc.dll
+C:\Users\krojas\Desktop\Projects\diagramaflujo\Diagra de Flujo\bin\System.Web.Razor.dll
+C:\Users\krojas\Desktop\Projects\diagramaflujo\Diagra de Flujo\bin\System.Web.WebPages.Deployment.dll
+C:\Users\krojas\Desktop\Projects\diagramaflujo\Diagra de Flujo\bin\System.Web.WebPages.dll
+C:\Users\krojas\Desktop\Projects\diagramaflujo\Diagra de Flujo\bin\System.Web.WebPages.Razor.dll
+C:\Users\krojas\Desktop\Projects\diagramaflujo\Diagra de Flujo\bin\Newtonsoft.Json.xml
+C:\Users\krojas\Desktop\Projects\diagramaflujo\Diagra de Flujo\bin\System.Web.Helpers.xml
+C:\Users\krojas\Desktop\Projects\diagramaflujo\Diagra de Flujo\bin\System.Web.Mvc.xml
+C:\Users\krojas\Desktop\Projects\diagramaflujo\Diagra de Flujo\bin\System.Web.Razor.xml
+C:\Users\krojas\Desktop\Projects\diagramaflujo\Diagra de Flujo\bin\System.Web.WebPages.xml
+C:\Users\krojas\Desktop\Projects\diagramaflujo\Diagra de Flujo\bin\System.Web.WebPages.Deployment.xml
+C:\Users\krojas\Desktop\Projects\diagramaflujo\Diagra de Flujo\bin\System.Web.WebPages.Razor.xml
+C:\Users\krojas\Desktop\Projects\diagramaflujo\Diagra de Flujo\obj\Debug\Diagra_de_Flujo.csprojResolveAssemblyReference.cache
+C:\Users\krojas\Desktop\Projects\diagramaflujo\Diagra de Flujo\obj\Debug\Diagra_de_Flujo.dll
+C:\Users\krojas\Desktop\Projects\diagramaflujo\Diagra de Flujo\obj\Debug\Diagra_de_Flujo.pdb
